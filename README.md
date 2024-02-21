@@ -7,7 +7,9 @@ This project will have 3 main Jupyter notebook files. Web_Scraping_Characters.ip
 - Extracts entities using **Spacy**'s small English language model
 - Cleans and tidies entities from the text using **Pandas**
 - Defines character relationships from the text using entities extracted from previous NER tasks
-- Builds network graphs and explores character insights from character and relationship data using **Networkx**, **Pyvis**, **Community**, and **Matplotlib**
+- Builds network graphs and explores character insights from character and relationship data using **Networkx**, **Pyvis**, **Community**, and **Matplotlib**  
+
+![LOTR Graph Visualization](/assets/img/LOTR.html)
 
 ## How to tweak this project for your own uses
 Since Tolkien's works are a passion of mine, I'd encourage you to clone and rename this project to use for your own purposes. It's a good introduction to text analytics and network graph visualization.
