@@ -24,7 +24,7 @@ Below is where I was able to get the books in text format:
 - *[The Hobbit](https://archive.org/stream/dli.ernet.474126/474126-The%20Hobbit%281937%29_djvu.txt)*
 - *[The Lord of the Rings](https://www.kaggle.com/datasets/ashishsinhaiitr/lord-of-the-rings-text)*
 
-I was inspired to do this project after seeing a youtube video on text analysis of *The Witcher* book series. Please see links to the video and the creator's github profile below:
+I was inspired to do this project after seeing a youtube video series on text analysis of *The Witcher* book series. Please see links to the videos and the creator's github profile below:
 - [Youtube ep. 1](https://www.youtube.com/watch?v=RuNolAh_4bU)
 - [Youtube ep. 2](https://www.youtube.com/watch?v=fAHkJ_Dhr50)
 - [Github](https://github.com/thu-vu92)
