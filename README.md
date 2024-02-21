@@ -9,16 +9,16 @@ This project will have 3 main Jupyter notebook files. Web_Scraping_Characters.ip
 - Defines character relationships from the text using entities extracted from previous NER tasks
 - Builds network graphs and explores character insights from character and relationship data using **Networkx**, **Pyvis**, **Community**, and **Matplotlib**
 
-##How to tweak this project for your own uses
+## How to tweak this project for your own uses
 Since Tolkien's works are a passion of mine, I'd encourage you to clone and rename this project to use for your own purposes. It's a good introduction to text analytics and network graph visualization.
 
-##Find a bug?
+## Find a bug?
 If you found an issue or would like to submit an improvement to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created!
 
-##Known issues (Work in progress)
+## Known issues (Work in progress)
 This project is still ongoing. I have not yet completed the full analysis and visualization of the works listed at the top of the README.md. This is coming soon!
 
-##Data sources/inspiration
+## Data sources/inspiration
 Below is where I was able to get the books in text format:
 - *[The Silmarillion](https://archive.org/stream/TheSilmarillionIllustratedJ.R.R.TolkienTedNasmith/The%20Silmarillion%20%28Illustrated%29%20-%20J.%20R.%20R.%20Tolkien%3B%20Ted%20Nasmith%3B_djvu.txt)*
 - *[The Hobbit](https://archive.org/stream/dli.ernet.474126/474126-The%20Hobbit%281937%29_djvu.txt)*
@@ -29,5 +29,5 @@ I was inspired to do this project after seeing a youtube video on text analysis 
 - [Youtube ep. 2](https://www.youtube.com/watch?v=fAHkJ_Dhr50)
 - [Github](https://github.com/thu-vu92)
 
-##Like this project?
+## Like this project?
 Please consider following me on [Github](https://github.com/Kevin-Cosgrove) and link with me on [LinkedIn](https://www.linkedin.com/in/kevin-j-cosgrove)
