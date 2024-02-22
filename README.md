@@ -9,7 +9,7 @@ This project will have 3 main Jupyter notebook files. Web_Scraping_Characters.ip
 - Defines character relationships from the text using entities extracted from previous NER tasks
 - Builds network graphs and explores character insights from character and relationship data using **Networkx**, **Pyvis**, **Community**, and **Matplotlib**  
 
-<iframe src="https://raw.githubusercontent.com/Kevin-Cosgrove/JRRT_Relationship_Network/main/assets/img/LOTR.html" width="1000" height="700"></iframe>
+![LOTR Network Graph](https://github.com/Kevin-Cosgrove/JRRT_Relationship_Network/blob/main/assets/img/read_me_graph.png)
 
 ## How to tweak this project for your own uses
 Since Tolkien's works are a passion of mine, I'd encourage you to clone and rename this project to use for your own purposes. It's a good introduction to text analytics and network graph visualization.
