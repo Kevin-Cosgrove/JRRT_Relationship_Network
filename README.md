@@ -5,7 +5,7 @@
 This project has 3 main python files:
 - main.py is the code that runs the project from start to finish
 - scrape.py is the code that web scrapes book and character data
-- functions.py is a custom script that contains all of the methods that control how the data is cleaned, tidied, modified, visualized, etc.
+- functions.py is a custom methods script that contains all of the methods that control how the data is cleaned, tidied, modified, visualized, etc.
 
 This project also has 2 Jupyter Notebooks files:
 - Web_Scraping_Characters.ipynb is the notebook that contains the code to scrape the book names and their respective character names from the internet
