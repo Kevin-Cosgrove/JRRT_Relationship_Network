@@ -174,9 +174,7 @@ def clean_tidy_book_characters(df):
     df = split_rows(df)
     #Remove special characters from character names
     df['character'] = df['character'].apply(lambda x: re.sub('[\(}.*?{\)]', '', x))
-    #Remove Character entries that do not contain valid characters or characters that are not named in the book,
-    #for example: row 9, "Captain of the guard"
-    remove_character_list = ['Captain of the guard', 'Category:Characters that have appeared in the Hobbit', 'the Lord of the Rings', 'Master of Lake-town', 'Great Goblin', 'Great grey chief wolf', 'Chief of the guards Woodland Realm', 'Councilors Lake-town', '', 'Category:Major characters The Lord of the Rings', 'Category:Minor characters The Lord of the Rings', 'Witch-king\'s winged steed', ]
+    
 
     # Filter the DataFrame to keep only rows where 'character' does not contain strings from remove_character_list
     df = df[~df['character'].isin(remove_character_list)]
@@ -195,7 +193,9 @@ def replace_accented_characters(row):
     Returns:
         - result: The function returns a DataFrame cell for the column 'character' without accented characters.
     """
-    if row['book'] in ['Category:The Hobbit characters', 'Category:The Silmarillion characters']:
+    
+    #Loops through books that have accented letters in names to replace with non-accented letters
+    if row['book'] in [hobbit_character_page, silmarillion_character_page]:
         character_list = list(row['character'])
         for i, char in enumerate(character_list):
             if unicodedata.category(char)[0] == 'L':
