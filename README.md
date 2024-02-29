@@ -29,7 +29,7 @@ I also wrote this code in a way where a user only needs to edit the variables in
 If you found an issue or would like to submit an improvement to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created!
 
 ## Known issues (Work in progress)
-This project is still ongoing. I have not yet completed the full analysis and visualization of the works listed at the top of the README.md. This is coming soon!
+This project is no longer ongoing and to my knowledge does not have any issues.
 
 ## Data sources/inspiration
 Below is where I was able to get the books in text format:
